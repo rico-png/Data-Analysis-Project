@@ -20,7 +20,7 @@ Pandas was imported to convert dataset to Dataframe while numpy was also used to
 key things i noted was that the highest rating is 10 and lowest is 4.0. while the maximum gross income is 17874. we also noticed that the highest unit price as 35985 and minimum as 3661.
 
 Step 3: 
-Here i dealth wih DateTimee features. I convert Date to date and time into the date format using pd.to_datetime. i also extracted extracted the hour, Day,Month and Year from our Date and Time Column
+Here i dealt wih DateTime features. I converted Date to date and time format using pd.to_datetime. i also extracted the hour, Day,Month and Year from our Date and Time Column
 
 Step 4: 
 I was able to get Unique Value in Column iteration and i got a categorical column. i now used .unique().tolist() function to get the unique value from each categorical column.
